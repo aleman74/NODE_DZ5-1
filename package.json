@@ -1,0 +1,24 @@
+{
+  "name": "node_dz5-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js Saint-Petersburg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleman74/NODE_DZ5-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleman74/NODE_DZ5-1/issues"
+  },
+  "homepage": "https://github.com/aleman74/NODE_DZ5-1#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
