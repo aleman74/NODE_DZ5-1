@@ -1,11 +1,12 @@
+// Импорт констант
+const {URL, CITY_NAME, TOKEN} = require('./config');
+
 // Подключаем модуль http
 const http = require('http');
 
-// Считываем параметер - название города
-const param_city = process.argv[2];
-
 // Формируем URL запроса
-const url = `http://api.weatherstack.com/current?access_key=${process.env.TOKEN}&query=${param_city}`;
+// const url = `http://api.weatherstack.com/current?access_key=${process.env.TOKEN}&query=${param_city}`;
+const url = URL + `?access_key=${TOKEN}&query=${CITY_NAME}`;
 // console.log(url);
 
 // Получаем данные
